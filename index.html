@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/index.css" />
+    <script src="js/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="header-title">
+        <h1>Header</h1>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <h2>Content</h2>
+        <div class="dynamic-content">
+          <div class="dynamic-content-tabs">
+            <div onclick="changeTab(0)" id="tab-1" class="tab">
+              Tab 1
+            </div>
+            <div onclick="changeTab(1)" id="tab-2" class="tab">
+              Tab 2
+            </div>
+            <div onclick="changeTab(2)" id="tab-3" class="tab">
+              Tab 3
+            </div>
+          </div>
+          <div id="content-render" class="dynamic-content-render">
+            <div class="content-render-tabs">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="content-render-tabs">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="content-render-tabs">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>
